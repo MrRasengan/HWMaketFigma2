@@ -248,6 +248,7 @@ img {
   margin-bottom: 60px;
 }
 
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
     max-width: 735px;
@@ -337,6 +338,123 @@ img {
   height: 420px;
 }
 
+}
 
+
+@media (max-width: 767px)
+{
+  .container {
+    max-width: 343px;
+  }
+
+  .header {
+    max-width: 375px;
+    margin: 0 auto;
+    height: 74px;
+  }
+
+  .navigation {
+    padding: 18px 16px;
+  }
+
+  .btnDel {
+    display: none;
+  }
+
+  .banerImg {
+    display: none;
+  }
+
+  .baner {
+    max-width: 375px;
+    height: 363px;
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  }
+
+  .banerText {
+    margin: 151px 0 151px 0;
+  }
+
+  .banerText h2 {
+    font-size: 38px;
+  }
+
+  .banerText h3 {
+    font-size: 20px;
+  }
+
+
+  .cardList {
+    gap: 32px;
+    padding: 16px;
+    margin-bottom: 64px;
+  }
+
+  .cardImg1 {
+    width: 343px;
+    height: 248px;
+  }
+
+  .cardImg2 {
+    width: 343px;
+    height: 248px;
+  }
+
+  .cardImg3 {
+    width: 343px;
+    height: 248px;
+  }
+
+  .cardImg4 {
+    width: 343px;
+    height: 111px;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  .boxList1 {
+    margin-bottom: 40px;
+  }
+
+  .boxText p {
+    margin-bottom: 64px;
+  }
+
+  .boxList2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .boxText h1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .boxText p {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .box {
+    width: 360px;
+    height: 581px;
+  }
+
+  .boxBtn {
+    margin-bottom: 85px;
+  }
 
 }

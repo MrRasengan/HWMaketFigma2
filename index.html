@@ -1,142 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./reset.css" />
-		<link rel="stylesheet" href="./style.css" />
-		<title>HomeWork2</title>
-	</head>
-	<body>
-		<header class="header">
-			<nav class="navigation container">
-				<div class="leftHeader">
-					<a href="#"><img src="./img/home.svg" alt="home" /></a>
-					<button><img src="./img/img1.svg" alt="img1" /></button>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./reset.css" />
+	<link rel="stylesheet" href="./style.css" />
+	<title>HomeWork2</title>
+</head>
+
+<body>
+	<header class="header">
+		<nav class="navigation container">
+			<div class="leftHeader">
+				<a href="#"><img src="./img/home.svg" alt="home" /></a>
+				<button><img src="./img/img1.svg" alt="img1" /></button>
+			</div>
+			<div class="rightHeader">
+				<button><img src="./img/img2.svg" alt="img2" /></button>
+				<button class="btnDel"><img src="./img/img3.svg" alt="img3" /></button>
+				<button class="btnDel"><img src="./img/img4.svg" alt="img4" /></button>
+				<div class="header__anim1">
+					<span>5</span>
 				</div>
-				<div class="rightHeader">
-					<button><img src="./img/img2.svg" alt="img2" /></button>
-					<button class="btnDel"><img src="./img/img3.svg" alt="img3" /></button>
-					<button class="btnDel"><img src="./img/img4.svg" alt="img4" /></button>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="baner">
+			<div class="banerImg">
+				<img src="./img/img5.png" alt="img5" />
+			</div>
+			<div class="banerText">
+				<h2>THE BRAND</h2>
+				<h3>OF LUXERIOUS <span>FASHION</span></h3>
+			</div>
+		</section>
+		<section class="cardList container">
+			<nav class="card1">
+				<div class="cardImg1">
+					<div class="cardBackground">
+						<div class="cardText">
+							<h2>30% OFF</h2>
+							<h3>FOR WOMEN</h3>
+						</div>
+					</div>
 				</div>
 			</nav>
-		</header>
-		<main>
-			<section class="baner">
-				<div class="banerImg">
-					<img src="./img/img5.png" alt="img5" />
+			<nav class="card2">
+				<div class="cardImg2">
+					<div class="cardBackground">
+						<div class="cardText">
+							<h2>HOT DEAL</h2>
+							<h3>FOR MEN</h3>
+						</div>
+					</div>
 				</div>
-				<div class="banerText">
-					<h2>THE BRAND</h2>
-					<h3>OF LUXERIOUS <span>FASHION</span></h3>
+			</nav>
+			<nav class="card3">
+				<div class="cardImg3">
+					<div class="cardBackground">
+						<div class="cardText">
+							<h2>NEW ARRIVALS</h2>
+							<h3>FOR KIDS</h3>
+						</div>
+					</div>
 				</div>
-			</section>
-			<section class="cardList container">
-				<nav class="card1">
-					<div class="cardImg1">
-						<div class="cardBackground">
-							<div class="cardText">
-								<h2>30% OFF</h2>
-								<h3>FOR WOMEN</h3>
-							</div>
+			</nav>
+			<nav class="card4">
+				<div class="cardImg4">
+					<div class="cardBackground">
+						<div class="cardText">
+							<h2>LUXIROUS &amp; TRENDY</h2>
+							<h3>ACCESORIES</h3>
 						</div>
 					</div>
-				</nav>
-				<nav class="card2">
-					<div class="cardImg2">
-						<div class="cardBackground">
-							<div class="cardText">
-								<h2>HOT DEAL</h2>
-								<h3>FOR MEN</h3>
-							</div>
-						</div>
-					</div>
-				</nav>
-				<nav class="card3">
-					<div class="cardImg3">
-						<div class="cardBackground">
-							<div class="cardText">
-								<h2>NEW ARRIVALS</h2>
-								<h3>FOR KIDS</h3>
-							</div>
-						</div>
-					</div>
-				</nav>
-				<nav class="card4">
-					<div class="cardImg4">
-						<div class="cardBackground">
-							<div class="cardText">
-								<h2>LUXIROUS & TRENDY</h2>
-								<h3>ACCESORIES</h3>
-							</div>
-						</div>
-					</div>
-				</nav>
-			</section>
+				</div>
+			</nav>
+		</section>
 
-			<section class="boxList1 container">
-				<div class="boxText">
-					<h1>Fetured Items</h1>
-					<p>Shop for items based on what we featured in this week</p>
-				</div>
-				<nav class="boxList2">
-					<div class="box">
+		<section class="boxList1 container">
+			<div class="boxText">
+				<h1>Fetured Items</h1>
+				<p>Shop for items based on what we featured in this week</p>
+			</div>
+			<nav class="boxList2">
+				<div class="box">
+					<div class="box__image">
 						<img src="./img/boxImage1.png" alt="boxImage" />
-						<h1>ELLERY X M'O CAPSULE</h1>
-						<p>
-							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
-							with Moda Operandi.
-						</p>
-						<span>$52.00</span>
+					<div class="overlay"></div>
+							<button class="box__anim-btn">
+								<img src="./img/img4.svg" alt="img4" />Add to Cart
+							</button>
 					</div>
-					<div class="box">
+					<h1>ELLERY X M'O CAPSULE</h1>
+					<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
+						with Moda Operandi.</p>
+					<span>$52.00</span>
+				</div>
+				<div class="box">
+					<div class="box__image">
 						<img src="./img/boxImage2.png" alt="boxImage" />
-						<h1>ELLERY X M'O CAPSULE</h1>
-						<p>
-							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
-							with Moda Operandi.
-						</p>
-						<span>$52.00</span>
+					<div class="overlay"></div>
+							<button class="box__anim-btn">
+								<img src="./img/img4.svg" alt="img4" />Add to Cart
+							</button>
 					</div>
-					<div class="box">
+					<h1>ELLERY X M'O CAPSULE</h1>
+					<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
+						with Moda Operandi.</p>
+					<span>$52.00</span>
+				</div>
+				<div class="box">
+					<div class="box__image">
 						<img src="./img/boxImage3.png" alt="boxImage" />
-						<h1>ELLERY X M'O CAPSULE</h1>
-						<p>
-							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
-							with Moda Operandi.
-						</p>
-						<span>$52.00</span>
+					<div class="overlay"></div>
+							<button class="box__anim-btn">
+								<img src="./img/img4.svg" alt="img4" />Add to Cart
+							</button>
 					</div>
-					<div class="box">
+					<h1>ELLERY X M'O CAPSULE</h1>
+					<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
+						with Moda Operandi.</p>
+					<span>$52.00</span>
+				</div>
+				<div class="box">
+					<div class="box__image">
 						<img src="./img/boxImage4.png" alt="boxImage" />
-						<h1>ELLERY X M'O CAPSULE</h1>
-						<p>
-							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
-							with Moda Operandi.
-						</p>
-						<span>$52.00</span>
+					<div class="overlay"></div>
+							<button class="box__anim-btn">
+								<img src="./img/img4.svg" alt="img4" />Add to Cart
+							</button>
 					</div>
-					<div class="box">
+					<h1>ELLERY X M'O CAPSULE</h1>
+					<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
+						with Moda Operandi.</p>
+					<span>$52.00</span>
+				</div>
+				<div class="box">
+					<div class="box__image">
 						<img src="./img/boxImage5.png" alt="boxImage" />
-						<h1>ELLERY X M'O CAPSULE</h1>
-						<p>
-							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
-							with Moda Operandi.
-						</p>
-						<span>$52.00</span>
+					<div class="overlay"></div>
+							<button class="box__anim-btn">
+								<img src="./img/img4.svg" alt="img4" />Add to Cart
+							</button>
 					</div>
-					<div class="box">
+					<h1>ELLERY X M'O CAPSULE</h1>
+					<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
+						with Moda Operandi.</p>
+					<span>$52.00</span>
+				</div>
+				<div class="box">
+					<div class="box__image">
 						<img src="./img/boxImage6.png" alt="boxImage" />
-						<h1>ELLERY X M'O CAPSULE</h1>
-						<p>
-							Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
-							with Moda Operandi.
-						</p>
-						<span>$52.00</span>
+					<div class="overlay"></div>
+							<button class="box__anim-btn">
+								<img src="./img/img4.svg" alt="img4" />Add to Cart
+							</button>
 					</div>
+					<h1>ELLERY X M'O CAPSULE</h1>
+					<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up
+						with Moda Operandi.</p>
+					<span>$52.00</span>
+				</div>
+			</nav>
+		</section>
+		<button class="boxBtn container">Browse All Product</button>
+	</main>
+	<footer class="footer">
+		<section class="footer__services container">
+			<div class="footer__service-content">
+				<img src="./img/service1.svg" alt="service">
+				<h1>Free Delivery</h1>
+				<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+			</div>
+			<div class="footer__service-content">
+				<img src="./img/service2.svg" alt="service">
+				<h1>Sales &amp; discounts</h1>
+				<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+			</div>
+			<div class="footer__service-content">
+				<img src="./img/service3.svg" alt="service">
+				<h1>Quality assurance</h1>
+				<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+			</div>
+		</section>
+		<section class="subscription">
+			<div class="subscription__smoke">
+				<div class="subscription__content container">
+					<div class="subscription__content-about">
+						<img src="./img/face.svg" alt="face">
+						<h1>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum“</span></h1>
+					</div>
+					<div class="subscription__content-subscribe">
+						<h2>SUBSCRIBE</h2>
+						<p>FOR OUR NEWLETTER AND PROMOTION</p>
+						<form class="subscription__content-form">
+							<input type="email" placeholder="Enter Your Email" required>
+							<button>Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="footer__end">
+			<div class="footer__end-content container">
+				<h1>© 2022 Brand All Rights Reserved.</h1>
+				<nav class="footer__end-icons">
+					<button><img src="./img/facebook.svg" alt="#"></button>
+					<button><img src="./img/instagram.svg" alt="#"></button>
+					<button><img src="./img/pinterest.svg" alt="#"></button>
+					<button><img src="./img/twitter.svg" alt="#"></button>
 				</nav>
-			</section>
-			<button class="boxBtn container">Browse All Product</button>
-		</main>
-	</body>
+			</div>
+		</section>
+	</footer>
+</body>
+
 </html>

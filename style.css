@@ -311,6 +311,11 @@ height: 420px;
   margin-bottom: 95px;
 }
 
+.boxBtn:hover {
+  color: white;
+  background-color: #F16D7F;
+}
+
 
 
 .footer {
@@ -483,6 +488,16 @@ height: 420px;
   padding: 6px;
   cursor: pointer;
 }
+
+.footer__end-content button:hover{
+  background-color: #F16D7F;
+
+}
+
+.footer__end-content:hover svg{
+  fill: #ffffff;
+}
+
 
 
 

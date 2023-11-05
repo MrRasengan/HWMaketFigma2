@@ -66,11 +66,51 @@ img {
 
 }
 
-
 .header button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+
+.menu-active {
+  width: 232px;
+height: 634px;
+background: #FFF;
+position: absolute;
+top: 75px;
+right: 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu-active h4 {
+  color: #000;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+padding-bottom: 24px;
+padding-left: 32px;
+}
+
+.menu-active h5 {
+  color: #F16D7F;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+padding-bottom: 12px;
+padding-left: 32px;
+}
+
+.menu-active a {
+  color: #6F6E6E;
+font-family: Lato;
+font-size: 14px;
+display: inline-block;
+margin-left: 53px;
+margin-bottom: 11px;
 }
 
 
@@ -90,6 +130,7 @@ img {
   border-left: 12px solid #F16D7F;
   margin: 290px 0 381px 0;
   padding-left: 16px;
+
 }
 
 .banerText h2 {

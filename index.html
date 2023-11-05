@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Учебный сайт">
 	<link rel="stylesheet" href="./reset.css" />
 	<link rel="stylesheet" href="./style.css" />
 	<title>HomeWork2</title>
@@ -19,12 +20,55 @@
 				<button><img src="./img/img1.svg" alt="img1" /></button>
 			</div>
 			<div class="rightHeader">
-				<button><img src="./img/img2.svg" alt="img2" /></button>
+				<button class="user-list__item-menu">
+					<img src="./img/img2.svg" alt="img2" />
+				</button>
 				<button class="btnDel"><img src="./img/img3.svg" alt="img3" /></button>
 				<button class="btnDel btnCounter"><img src="./img/img4.svg" alt="img4" /></button>
 			</div>
 		</nav>
 	</header>
+
+<div class="menu-active hidden">
+	<div class="menu-active__all">
+		<button class="menu-close">
+			<img src="./img/close.svg" alt="close">
+		</button>
+		<h4 class="menu-heading">MENU</h4>
+		<div class="menu-man">
+			<h5 class="menu-text">MAN</h5>
+			<ul class="menu-list">
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Bags</a></li>
+				<li><a href="#">Denim</a></li>
+				<li><a href="#">T-Shirts</a></li>
+			</ul>
+		</div>
+		<div class="menu-woman">
+			<h5 class="menu-text">WOMAN</h5>
+			<ul class="menu-list">
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Jackets &amp; Coats</a></li>
+				<li><a href="#">Polos</a></li>
+				<li><a href="#">T-Shirts</a></li>
+				<li><a href="#">Shirts</a></li>
+			</ul>
+		</div>
+		<div class="menu-kids">
+			<h5 class="menu-text">KIDS</h5>
+			<ul class="menu-list">
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Jackets &amp; Coats</a></li>
+				<li><a href="#">Polos</a></li>
+				<li><a href="#">T-Shirts</a></li>
+				<li><a href="#">Shirts</a></li>
+				<li><a href="#">Bags</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
 	<main>
 		<h2 style="display: none;">Контент</h2>
 		<section class="baner">
@@ -230,6 +274,8 @@
 			</div>
 		</section>
 	</footer>
+
+	<script src="./script.js"></script>
 </body>
 
 </html>

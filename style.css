@@ -45,23 +45,27 @@ img {
 .rightHeader {
   display: flex;
   gap: 25px;
+}
+
+.btnCounter {
   position: relative;
 }
 
-.header__anim1 {
-  width: 19px;
-  height: 19px;
-  background-color: #F16D7F;
-  border-radius: 50%;
+.btnCounter:hover::after {
+  content: "5";
+  top: 1px;
+  right: -3px;
   position: absolute;
-  top: -1;
-  right: 0;
-  color: #FFF;
-  font-family: Lato;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: center;
 }
+
+.btnCounter:hover::before {
+  content: url(./img/iconBasketCounter.svg);
+  position: absolute;
+  top: 0px;
+  right: -8px;
+
+}
+
 
 .header button {
   background: none;

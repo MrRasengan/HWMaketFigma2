@@ -113,6 +113,18 @@ margin-left: 53px;
 margin-bottom: 11px;
 }
 
+.menu-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.menu-list{
+  list-style-type: none;
+}
+
 
 
 .baner {
@@ -511,6 +523,7 @@ height: 420px;
   width: 1600px;
   height: 79px;
   background-color: #222224;
+  margin-bottom: 0;
 }
 
 .footer__end-content {
